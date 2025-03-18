@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Document</title>
+        </head>
+        <body>
+              <div id="box"></div>
+              <div id="box2">We Are Learning jQuery</div>
+
+            <script src="./1/jquery-3.6.0.min.js"></script>
+            <script>
+                 (function($){
+                   // alert('page loaded sucess 1');
+                   $('div#box').html('Hello Good Morning');
+
+                    varx = $('div#box2').html();
+                    alert(x);
+                 })(jQuery);
+
+                // jQuery(function($){
+                   // alert('page loaded sucess 2');
+                 //});
+
+                // $(document).ready(function(){
+                   // alert('page loaded sucessfully 3');
+                 //});//
+            </script>
+        </body>
+</html>

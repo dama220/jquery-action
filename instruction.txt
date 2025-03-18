@@ -1,0 +1,7 @@
+jQuery 
+
+how to use the jQuery?
+
+jQuery local linking (local download)
+
+jQuery cdn
